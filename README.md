@@ -68,7 +68,9 @@ Python libraries used:
 
 ### Rebecca Gou
 - Survey cleaning and variable construction
+- Conduct sleep analysis survey 
 - Sports facility density integration
-- Exploratory data analysis and visualization
+- GOADE data analysis and visualization
 - Merging environmental and infrastructure variables for modeling
+- Repository organization and documentation
 
