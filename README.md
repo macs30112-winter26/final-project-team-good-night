@@ -1,13 +1,57 @@
-# final-project-team-good-night
-final-project-team-good-night created by GitHub Classroom
 # Exploratory Analysis of Stress, Sleep Quality, and Residential Contexts in Urban China
 
-## Project Overview
-This project is an exploratory study examining how perceived stress and sleep quality vary across residential and environmental contexts in urban China. Using individual-level survey data linked to neighborhood-level contextual indicators, the project focuses on descriptive spatial analysis and exploratory associations rather than causal inference.
+## Project Description
 
-## Data Sources
-- **PBICR-2023 Survey**: Individual-level data on perceived stress, sleep quality, and residential location.
-- **Google Earth Engine (API)**: Nighttime light intensity and PM2.5 concentration data aggregated to administrative boundaries.
-- **Gaode Map / Amap Places API**: Point-of-interest data on hospitals, clinics, and fitness facilities used to construct accessibility and density measures.
+Project Goodnight examines how sleep quality varies across urban districts within major Chinese cities and how individual-level stress interacts with neighborhood-level environmental and infrastructure conditions.
 
-## Project Structure
+Our primary outcome is `sleep_quality`, measured using survey data. Our main individual-level predictor is perceived stress (`pss4_total`). We link survey respondents to district-level contextual indicators to examine whether environmental and infrastructure characteristics are associated with sleep and whether they moderate the relationship between stress and sleep.
+
+District-level variables include:
+
+- Mean NDVI (June 30 – August 31, 2023; green space proxy)
+- Mean VIIRS nighttime light radiance (June 30 – August 31, 2023; urban intensity proxy)
+- Sports facility density per 100,000 residents
+
+The project is descriptive and exploratory. We focus on identifying patterns and cross-city variation rather than making causal claims.
+
+Our central question is:
+
+How does individual stress relate to sleep quality, and do district-level environmental or infrastructure characteristics moderate that relationship?
+
+---
+
+## Data
+
+### PBICR-2023 Survey
+Individual-level data on perceived stress, sleep quality, and district identifiers.  
+Retrieved via download.
+
+### MODIS NDVI (Google Earth Engine API)
+Satellite-derived vegetation index aggregated to ADM3 district boundaries for June 30 – August 31, 2023.  
+Collected via API using Python.
+
+### VIIRS Nighttime Lights (Google Earth Engine API)
+Satellite-derived nighttime radiance aggregated to ADM3 district boundaries for June 30 – August 31, 2023.  
+Collected via API using Python.
+
+### Gaode (Amap) Places API – Sports Facilities
+Point-of-interest data used to compute district-level sports facility density (facilities per 100,000 residents).  
+Collected via API and aggregated to district level.
+
+---
+
+## Libraries
+
+Python libraries used:
+
+- earthengine-api
+- geemap
+- pandas
+- numpy
+- geopandas
+- matplotlib
+- seaborn
+
+---
+
+## Repo Structure
