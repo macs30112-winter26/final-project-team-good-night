@@ -53,9 +53,24 @@ Python libraries used:
 
 ## Repo Structure
 
+## Branch: main
 - `code/` contains environmental extraction and aggregation scripts. ndvi_viirs_5cities_2023_summer.py
 - `data/processed/` contains cleaned district-level summary tables used for merging. [district-level NDVI and VIIRS summary tables]
 - `figs/` stores exploratory and presentation-ready visualizations. [plots and visualizations]
+- ## Branch: yuxuan-upload
+
+This branch contains Yuxuan's uploaded project folder as a
+self-contained version of the analysis.
+
+**Contents include:** - `script/` -- Data cleaning, merging, scoring
+(PSQI, PSS-4), descriptives, visualization, and regression scripts\
+- `Results/` -- Output results generated from the analysis\
+- `figs/` -- Figures generated from the analysis\
+- `.DS_Store` -- macOS system file (can be ignored)
+
+This branch was created to upload the full project folder without
+modifying the shared `main` branch.
+
 
 
 ## Contributions
