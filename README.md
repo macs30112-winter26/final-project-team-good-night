@@ -18,7 +18,6 @@ Our central question is:
 
 How does individual stress relate to sleep quality, and do district-level environmental or infrastructure characteristics moderate that relationship?
 
----
 
 ## Data
 
@@ -38,7 +37,6 @@ Collected via API using Python.
 Point-of-interest data used to compute district-level sports facility density (facilities per 100,000 residents).  
 Collected via API and aggregated to district level.
 
----
 
 ## Libraries
 
@@ -52,24 +50,13 @@ Python libraries used:
 - matplotlib
 - seaborn
 
----
 
 ## Repo Structure
 
-code/
-ndvi_viirs_5cities_2023_summer.py
-data/
-processed/
-[district-level NDVI and VIIRS summary tables]
-figs/
-[plots and visualizations]
+- `code/` contains environmental extraction and aggregation scripts. ndvi_viirs_5cities_2023_summer.py
+- `data/processed/` contains cleaned district-level summary tables used for merging. [district-level NDVI and VIIRS summary tables]
+- `figs/` stores exploratory and presentation-ready visualizations. [plots and visualizations]
 
-
-- `code/` contains environmental extraction and aggregation scripts.
-- `data/processed/` contains cleaned district-level summary tables used for merging.
-- `figs/` stores exploratory and presentation-ready visualizations.
-
----
 
 ## Contributions
 
