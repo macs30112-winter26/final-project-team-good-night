@@ -55,3 +55,33 @@ Python libraries used:
 ---
 
 ## Repo Structure
+
+code/
+ndvi_viirs_5cities_2023_summer.py
+data/
+processed/
+[district-level NDVI and VIIRS summary tables]
+figs/
+[plots and visualizations]
+
+
+- `code/` contains environmental extraction and aggregation scripts.
+- `data/processed/` contains cleaned district-level summary tables used for merging.
+- `figs/` stores exploratory and presentation-ready visualizations.
+
+---
+
+## Contributions
+
+### Shoshana Abikzer
+- Remote sensing extraction (NDVI and VIIRS)
+- District-level aggregation and validation
+- Repository organization and documentation
+- Environmental data standardization across five cities
+
+### Rebecca Gou
+- Survey cleaning and variable construction
+- Sports facility density integration
+- Exploratory data analysis and visualization
+- Merging environmental and infrastructure variables for modeling
+
