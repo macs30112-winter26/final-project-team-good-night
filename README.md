@@ -67,33 +67,37 @@ This project uses both survey data and environmental data collected through APIs
 
 # Repository Structure
 
+```
 final-project-team-good-night/
 │
 ├── code/
-│ ├── Data cleaning.py
-│ ├── Data_analysis.ipynb
-│ ├── Sports_5cities.py
-│ └── ndvi_viirs_5cities_2023_summer.py
+│   ├── Data cleaning.py
+│   ├── Data_analysis.ipynb
+│   ├── Sports_5cities.py
+│   └── ndvi_viirs_5cities_2023_summer.py
 │
 ├── data/
-│ └── processed/
-│ ├── Beijing_means_table.csv
-│ ├── Chengdu_table.csv
-│ ├── Shanghai_table.csv
-│ ├── Shenzhen_means_table.csv
-│ └── Suzhou_means_table.csv
+│   └── processed/
+│       ├── Beijing_means_table - Sheet1.csv
+│       ├── Chengdu_table - Sheet1.csv
+│       ├── Shanghai_table - Sheet1.csv
+│       ├── Shenzhen_means_table - Sheet1.csv
+│       └── Suzhou_means_table - Sheet1.csv
 │
 ├── figs/
-│ ├── 1_sleep_quality_distribution.png
-│ ├── 3_box_sleep_by_facility_quartile.png
-│ └── stress_sleep_mean_ci.png
+│   ├── 1_sleep_quality_distribution.png
+│   ├── 3_box_sleep_by_facility_quartile.png
+│   └── stress_sleep_mean_ci.png
 │
 ├── results/
-│ ├── descriptives_categorical.csv
-│ ├── sports.xlsx
-│ └── sports_density.xlsx
+│   ├── descriptives_categorical.csv
+│   ├── sports (1).xlsx
+│   └── sports_density (2).xlsx
+│
+├── Team Goodnight — Check-in 2.pdf
 │
 └── README.md
+```
 
 ---
 
