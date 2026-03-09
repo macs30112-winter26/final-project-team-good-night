@@ -5,6 +5,7 @@ Objective:
 - For each of our 5 cities, compute mean NDVI (MODIS) + mean nightlights (VIIRS)
   for every ADM3 unit (district/county) inside that city.
 - Export ONE CSV per city to Google Drive (same export style as our Chengdu run).
+- AI USE: AI use was necessary for debugging and syntax suggestions. Jupyter Notebook's AI assistance and OpenAI were used for syntax help, but NOT use to produce original code or structure. 
 
 Window we’re using:
 - 2023-06-30 to 2023-08-31
