@@ -29,7 +29,7 @@ This project is exploratory and focuses on identifying patterns across cities ra
 
 **Methods and Analysis**
 
-This project links PBICR 2023 sleep survey data with environmental indicators measured at the district level. NDVI vegetation values and nighttime light intensity were collected using the Google Earth Engine API. Sports facility locations were collected through the Gaode Maps API and converted into district-level density measures.
+This project links PBICR 2023 survey data with environmental indicators measured at the district level. NDVI vegetation values and nighttime light intensity were collected using the Google Earth Engine API. Sports facility locations were collected through the Gaode Maps API and converted into district-level density measures.
 
 These environmental indicators were aggregated to district boundaries and merged with the survey dataset using district identifiers. The final dataset was used to generate descriptive visualizations and run regression models examining how stress and environmental conditions relate to sleep quality.
 
