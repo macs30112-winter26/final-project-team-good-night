@@ -94,8 +94,6 @@ final-project-team-good-night/
 │   ├── sports (1).xlsx
 │   └── sports_density (2).xlsx
 │
-├── Team Goodnight — Check-in 2.pdf
-│
 └── README.md
 ```
 
