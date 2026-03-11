@@ -166,8 +166,8 @@ All project design, data collection, coding, analysis, and interpretation were c
 
 **Final slides**
 
-[(link)](https://drive.google.com/file/d/1BKIHngTdICLiF_xSSAqNlt_B2oTuDkBO/view?usp=sharing )
+[[(link)]([https://drive.google.com/file/d/1BKIHngTdICLiF_xSSAqNlt_B2oTuDkBO/view?usp=sharing )](https://www.canva.com/design/DAHDbtCcEKA/3604N7kpzrU42uo98H0RwQ/view?utm_content=DAHDbtCcEKA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4a38e59b99) ](https://www.canva.com/design/DAHDbtCcEKA/3604N7kpzrU42uo98H0RwQ/view?utm_content=DAHDbtCcEKA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4a38e59b99)
 
 **Presentation video**
 
-(link)
+(file:///Users/shoshana/Documents/Zoom/2026-03-11%2007.31.01%20Shoshana%20Abikzer's%20Zoom%20Meeting/video1069951958.mp4.zip)
