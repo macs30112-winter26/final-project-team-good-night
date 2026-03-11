@@ -162,7 +162,7 @@ All project design, data collection, coding, analysis, and interpretation were c
 
 **Slides used for the in the in-class presentation**
 
-[(link)](https://drive.google.com/file/d/15ZkO6mH8B8EfQjd0j9jbMIVqoZD-o9CG/view)
+[(link)](https://drive.google.com/file/d/1TPwfklam6v3FZGzbiFZvlVQMonj-ajqD/view)
 
 **Final slides**
 
